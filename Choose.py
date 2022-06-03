@@ -1,15 +1,15 @@
 import random
 
 friends = [
-    'Olek',
-    'Carmela',
+    'Alexis'
     'Laura',
-    'Megan',
-    'Keith',
-    'Anna',
-    'Skyler',
-    'Amy',
-    'Nadya'
+    'Mako',
+    'Aisu',
+    'Mai',
+    'Genta',
+    'Itsuki',
+    'Lucy',
+    'Jasmine',
 ]
 
 # random.randint(1, 5) --> random number between 1 and 5
@@ -17,5 +17,5 @@ friends = [
 
 selected = random.choice(friends) # randomly choose a friend
 
-print('Who should I facetime today?')
+print('Who should I hangout with today?')
 print(selected)
